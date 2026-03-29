@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: #1a1a1a;
+    --color-panel: #242424;
+    --color-border: #363636;
+    --color-orange: #e87d0d;
+    --color-text: #d4d4d4;
+    --color-muted: #888;
+  }
+
+  html {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Inter", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background: var(--color-orange);
+    color: #fff;
+  }
+
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: var(--color-bg); }
+  ::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--color-muted); }
+}
+
+@layer components {
+  /* ── Hotspot System ─────────────────────────────────────────── */
+  .hotspot-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .hotspot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--color-orange);
+    border: 2px solid #fff;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transition: transform 0.15s, box-shadow 0.15s;
+    z-index: 10;
+  }
+
+  .hotspot::before {
+    content: "";
+    position: absolute;
+    inset: -4px;
+    border-radius: 50%;
+    background: rgba(232, 125, 13, 0.25);
+    animation: hotspot-pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes hotspot-pulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.5); opacity: 0; }
+  }
+
+  .hotspot-tooltip {
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1a1a1a;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 13px;
+    line-height: 1.5;
+    white-space: nowrap;
+    max-width: 240px;
+    white-space: normal;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    z-index: 20;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  }
+
+  .hotspot-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: var(--color-border);
+  }
+
+  .hotspot:hover .hotspot-tooltip,
+  .hotspot:focus .hotspot-tooltip {
+    opacity: 1;
+  }
+
+  /* ── Kbd keys ───────────────────────────────────────────────── */
+  .kbd {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #2a2a2a;
+    border: 1px solid #4a4a4a;
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    color: #d4d4d4;
+    min-width: 28px;
+  }
+}

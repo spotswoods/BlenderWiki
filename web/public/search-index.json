@@ -1,0 +1,1061 @@
+[
+  {
+    "_id": "2732de9e-f0fc-41c1-869a-1d9ee1e3ec40",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate-modifiers",
+    "slug": "array",
+    "title": "Array",
+    "tldr": "Duplicates an object in a line, grid, or along a curve — the fastest way to build repetitive geometry.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-ambient-occlusion",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "ambient-occlusion",
+    "title": "Ambient Occlusion",
+    "tldr": "Darkens crevices, corners, and tight areas to fake contact shadows — adds depth and realism without extra lights.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-armature",
+    "category": "Deform Modifiers",
+    "categorySlug": "deform",
+    "slug": "armature",
+    "title": "Armature",
+    "tldr": "Deforms a mesh using a skeleton of bones — the foundation of all character and creature animation in Blender.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-array",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "array",
+    "title": "Array",
+    "tldr": "Duplicates your object in a line, ring, or along a path — the fastest way to build fences, stairs, pillars, and anything repeating.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-bevel",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "bevel",
+    "title": "Bevel",
+    "tldr": "Adds a non-destructive bevel to edges and corners via the modifier panel — unlike the Bevel Tool (Ctrl+B), this stays editable at any time.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-boolean",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "boolean",
+    "title": "Boolean",
+    "tldr": "Cuts, joins, or finds the overlap of two meshes — use it to punch holes, merge shapes, or create complex cutouts.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-build",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "build",
+    "title": "Build",
+    "tldr": "Animates your mesh appearing or disappearing face-by-face over time — great for construction and destruction effects.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-bump",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "bump",
+    "title": "Bump",
+    "tldr": "Fakes small surface bumps using a grayscale texture — cheaper than real geometry displacement, great for pores and scratches.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-cast",
+    "category": "Deform Modifiers",
+    "categorySlug": "deform",
+    "slug": "cast",
+    "title": "Cast",
+    "tldr": "Morphs your mesh toward a sphere, cylinder, or cube shape — great for squash-and-stretch cartoon animation.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-cloth",
+    "category": "Physics Modifiers",
+    "categorySlug": "physics",
+    "slug": "cloth",
+    "title": "Cloth",
+    "tldr": "Simulates fabric that drapes, folds, blows in wind, and collides with other objects — for curtains, capes, and clothing.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-collision",
+    "category": "Physics Modifiers",
+    "categorySlug": "physics",
+    "slug": "collision",
+    "title": "Collision",
+    "tldr": "Marks an object as a solid barrier that cloth, particles, and fluid simulations bounce and collide against.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-color-ramp",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "color-ramp",
+    "title": "Color Ramp",
+    "tldr": "Converts a grayscale value into a custom gradient — essential for controlling contrast and adding color to any texture.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-curve",
+    "category": "Deform Modifiers",
+    "categorySlug": "deform",
+    "slug": "curve",
+    "title": "Curve",
+    "tldr": "Bends your mesh to follow a curve path — use it to create roads, rivers, pipes, conveyor belts, and tentacles.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-data-transfer",
+    "category": "Modify Modifiers",
+    "categorySlug": "modify",
+    "slug": "data-transfer",
+    "title": "Data Transfer",
+    "tldr": "Copies vertex data (normals, UVs, weights) from one mesh to another — used to transfer baked normals onto a game-ready mesh.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-decimate",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "decimate",
+    "title": "Decimate",
+    "tldr": "Reduces the polygon count of a mesh while keeping its overall shape — essential for game-ready assets and performance.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-diffuse-bsdf",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "diffuse-bsdf",
+    "title": "Diffuse BSDF",
+    "tldr": "A flat matte shader with no reflections — clay, chalk, and unfinished concrete. Simpler and faster than Principled BSDF.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-displace",
+    "category": "Deform Modifiers",
+    "categorySlug": "deform",
+    "slug": "displace",
+    "title": "Displace",
+    "tldr": "Pushes vertices up and down using a texture as a height map — adds surface detail like rocks and terrain without sculpting.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-dynamic-paint",
+    "category": "Physics Modifiers",
+    "categorySlug": "physics",
+    "slug": "dynamic-paint",
+    "title": "Dynamic Paint",
+    "tldr": "Records where objects touch a surface over time as painted color or displacement — footprints, wet trails, and impact marks.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-edge-split",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "edge-split",
+    "title": "Edge Split",
+    "tldr": "Creates sharp creases on a smooth-shaded mesh by splitting edges — without adding any extra geometry.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-bevel-tool",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "bevel-tool",
+    "title": "Bevel Tool",
+    "tldr": "Rounds selected edges interactively in Edit Mode — drag to set width, scroll wheel to add segments. This permanently changes the mesh, unlike the Bevel Modifier.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-bridge-edge-loops",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "bridge-edge-loops",
+    "title": "Bridge Edge Loops",
+    "tldr": "Connects two separate edge loops with a band of new faces — joins open ends of tubes, fills between holes, and creates handles.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-dissolve",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "dissolve",
+    "title": "Dissolve",
+    "tldr": "Removes edges or vertices without leaving a hole — merges the surrounding faces together. Cleaner than Delete for tidying up edge loops.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-edge-crease",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "edge-crease",
+    "title": "Edge Crease",
+    "tldr": "Marks an edge to stay sharp when Subdivision Surface smooths the mesh — control exactly which edges stay hard without adding extra loops.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-extrude",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "extrude",
+    "title": "Extrude",
+    "tldr": "Pulls new geometry out of selected faces, edges, or vertices — the single most-used Edit Mode tool for building shapes.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-fill",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "fill",
+    "title": "Fill",
+    "tldr": "Creates a face from selected edges or vertices — the quickest way to close a hole or cap an open edge loop.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-grid-fill",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "grid-fill",
+    "title": "Grid Fill",
+    "tldr": "Fills an even, circular edge loop with a clean grid of quads — the right way to cap a cylinder without a messy n-gon.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-inset",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "inset-faces",
+    "title": "Inset Faces",
+    "tldr": "Creates a smaller face inside a selected face — use it to add detail panels, windows, and recessed surfaces.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-knife",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "knife",
+    "title": "Knife",
+    "tldr": "Draws freehand cuts across faces — place vertices exactly where you need them for precise topology control.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-loop-cut",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "loop-cut",
+    "title": "Loop Cut",
+    "tldr": "Adds a new edge loop around a mesh — the main way to add resolution exactly where you need it without touching the rest.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-mark-seam",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "mark-seam",
+    "title": "Mark Seam",
+    "tldr": "Marks edges as UV seams — tells Blender where to cut the mesh open when unwrapping it flat for texturing.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-merge",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "merge",
+    "title": "Merge",
+    "tldr": "Collapses selected vertices into one point — use it to close tips, weld seams, and clean up stray vertices.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-proportional-editing",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "proportional-editing",
+    "title": "Proportional Editing",
+    "tldr": "Makes nearby vertices follow a transformation with a smooth falloff — sculpt-like edits without leaving Edit Mode.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-rip",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "rip",
+    "title": "Rip",
+    "tldr": "Tears vertices or edges away from the mesh, creating an open seam — useful for splitting topology without deleting geometry.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-separate",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "separate",
+    "title": "Separate",
+    "tldr": "Splits selected geometry into its own object — the opposite of Ctrl+J join. Use it to break a mesh into separate manageable parts.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-shrink-fatten",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "shrink-fatten",
+    "title": "Shrink / Fatten",
+    "tldr": "Moves selected vertices inward or outward along their face normals — inflates or deflates a shape evenly without distorting it.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-spin",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "spin",
+    "title": "Spin",
+    "tldr": "Rotates and duplicates selected geometry around the 3D cursor in steps — creates fan blades, spiral staircases, and radial patterns in Edit Mode.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-subdivide",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "subdivide",
+    "title": "Subdivide",
+    "tldr": "Splits every selected face into smaller faces — adds resolution permanently. Use Subdivision Surface modifier instead if you want it to stay non-destructive.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-em-vertex-slide",
+    "category": "Edit Mode Tools",
+    "categorySlug": "edit-mode",
+    "slug": "vertex-edge-slide",
+    "title": "Vertex / Edge Slide",
+    "tldr": "Slides a vertex or edge along its connected edges — repositions topology without changing the overall shape of the mesh.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-emission",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "emission",
+    "title": "Emission",
+    "tldr": "Makes a surface glow and emit light into the scene — use it for screens, lava, neon signs, and light panels.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-explode",
+    "category": "Physics Modifiers",
+    "categorySlug": "physics",
+    "slug": "explode",
+    "title": "Explode",
+    "tldr": "Breaks a mesh apart along particle paths — the fastest way to create explosion and shattering effects.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-fluid",
+    "category": "Physics Modifiers",
+    "categorySlug": "physics",
+    "slug": "fluid-simulation",
+    "title": "Fluid Simulation",
+    "tldr": "Simulates liquid or gas flowing, splashing, and spreading — use it for water, smoke, fire, and explosions.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-fresnel",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "fresnel",
+    "title": "Fresnel",
+    "tldr": "Outputs how much a surface reflects based on viewing angle — edges reflect more than flat-on surfaces, like real glass and plastic.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-glass-bsdf",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "glass-bsdf",
+    "title": "Glass BSDF",
+    "tldr": "A ready-made glass shader — handles refraction and reflection automatically. Use IOR to control how much it bends light.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-glossy-bsdf",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "glossy-bsdf",
+    "title": "Glossy BSDF",
+    "tldr": "A pure mirror-like reflection shader. Roughness 0 = perfect mirror, Roughness 1 = completely dull. Mix with Diffuse for metals.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-gn-curve-to-mesh",
+    "category": "Geometry Nodes",
+    "categorySlug": "geometry-nodes",
+    "slug": "curve-to-mesh",
+    "title": "Curve to Mesh",
+    "tldr": "Sweeps a profile shape along a curve path — create pipes, cables, rails, and molding with a single node.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-gn-distribute-points",
+    "category": "Geometry Nodes",
+    "categorySlug": "geometry-nodes",
+    "slug": "distribute-points-on-faces",
+    "title": "Distribute Points on Faces",
+    "tldr": "Scatters points across a mesh surface randomly or evenly — the foundation for scattering grass, rocks, and debris.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-gn-grid",
+    "category": "Geometry Nodes",
+    "categorySlug": "geometry-nodes",
+    "slug": "grid",
+    "title": "Grid",
+    "tldr": "Creates a flat plane subdivided into rows and columns — the starting point for terrain, water planes, and cloth sims.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-gn-instance-on-points",
+    "category": "Geometry Nodes",
+    "categorySlug": "geometry-nodes",
+    "slug": "instance-on-points",
+    "title": "Instance on Points",
+    "tldr": "Places copies of an object at every point of another mesh — scatter rocks on terrain, leaves on a branch, bolts on a panel.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-gn-join-geometry",
+    "category": "Geometry Nodes",
+    "categorySlug": "geometry-nodes",
+    "slug": "join-geometry",
+    "title": "Join Geometry",
+    "tldr": "Merges multiple geometry inputs into one — the geometry node equivalent of Ctrl+J to join objects.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-gn-mesh-line",
+    "category": "Geometry Nodes",
+    "categorySlug": "geometry-nodes",
+    "slug": "mesh-line",
+    "title": "Mesh Line",
+    "tldr": "Creates a line of vertices between two points — use it as the spine for instancing or as input to a curve modifier.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-gn-noise-texture",
+    "category": "Geometry Nodes",
+    "categorySlug": "geometry-nodes",
+    "slug": "noise-texture-gn",
+    "title": "Noise Texture (GN)",
+    "tldr": "Generates procedural noise inside a geometry node tree — drive position offsets, scale variation, and color randomness.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-gn-realize-instances",
+    "category": "Geometry Nodes",
+    "categorySlug": "geometry-nodes",
+    "slug": "realize-instances",
+    "title": "Realize Instances",
+    "tldr": "Converts lightweight instances into actual geometry — required before you can edit, sculpt, or export individual copies.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-gn-set-position",
+    "category": "Geometry Nodes",
+    "categorySlug": "geometry-nodes",
+    "slug": "set-position",
+    "title": "Set Position",
+    "tldr": "Moves individual points of a mesh using a value or vector — the foundation of geometry node deformation and animation.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-gn-transform",
+    "category": "Geometry Nodes",
+    "categorySlug": "geometry-nodes",
+    "slug": "transform-geometry",
+    "title": "Transform Geometry",
+    "tldr": "Moves, rotates, and scales geometry inside a node tree — positions things without touching object transforms.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-hook",
+    "category": "Deform Modifiers",
+    "categorySlug": "deform",
+    "slug": "hook",
+    "title": "Hook",
+    "tldr": "Lets you grab a group of vertices and control them with an empty or bone — useful for facial shape controls and rigs.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-image-texture",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "image-texture",
+    "title": "Image Texture",
+    "tldr": "Projects a photo or painted image onto your mesh surface — the main way to apply real-world textures in Blender.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-laplacian-smooth",
+    "category": "Deform Modifiers",
+    "categorySlug": "deform",
+    "slug": "laplacian-smooth",
+    "title": "Laplacian Smooth",
+    "tldr": "Smooths mesh shape while preserving sharp features better than regular smooth — good for organic models.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-lattice",
+    "category": "Deform Modifiers",
+    "categorySlug": "deform",
+    "slug": "lattice",
+    "title": "Lattice",
+    "tldr": "Deforms your mesh using a cage of control points — reshape anything non-destructively without touching the actual vertices.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-mapping",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "mapping",
+    "title": "Mapping",
+    "tldr": "Moves, rotates, and scales a texture — connect it between Texture Coordinate and any texture node to position it precisely.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-mask",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "mask",
+    "title": "Mask",
+    "tldr": "Hides parts of your mesh using a vertex group — lets you show or hide geometry non-destructively without deleting anything.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-math",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "math",
+    "title": "Math",
+    "tldr": "Performs arithmetic on number values — add, multiply, clamp, power, sin/cos. The calculator of the shader node editor.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-mesh-cache",
+    "category": "Modify Modifiers",
+    "categorySlug": "modify",
+    "slug": "mesh-cache",
+    "title": "Mesh Cache",
+    "tldr": "Loads animated mesh data from an external file — use it to import simulations from other software like Houdini.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-mesh-deform",
+    "category": "Deform Modifiers",
+    "categorySlug": "deform",
+    "slug": "mesh-deform",
+    "title": "Mesh Deform",
+    "tldr": "Deforms a mesh using a surrounding cage mesh — more precise control than Lattice for complex organic shapes.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-mirror",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "mirror",
+    "title": "Mirror",
+    "tldr": "Mirrors your mesh across an axis — model one half of a face, car, or weapon and get the other half automatically.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-mix-rgb",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "mix-color",
+    "title": "Mix Color",
+    "tldr": "Blends two colors or textures together using blend modes like Multiply, Screen, Overlay — identical to Photoshop layer blending.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-mix-shader",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "mix-shader",
+    "title": "Mix Shader",
+    "tldr": "Blends two shaders together using a factor or mask — mix glossy with diffuse, or glass with opaque for complex surfaces.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-multiresolution",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "multiresolution",
+    "title": "Multiresolution",
+    "tldr": "Adds multiple sculpting detail levels to a mesh — sculpt fine wrinkles without permanently subdividing your base mesh.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-musgrave-texture",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "musgrave-texture",
+    "title": "Musgrave Texture",
+    "tldr": "Generates detailed fractal noise — more complex than Noise Texture, great for terrain, rust, and organic surfaces.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-noise-texture",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "noise-texture",
+    "title": "Noise Texture",
+    "tldr": "Generates a random cloudy pattern — break up uniform surfaces, drive displacement, or create procedural dirt and wear.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-normal-edit",
+    "category": "Modify Modifiers",
+    "categorySlug": "modify",
+    "slug": "normal-edit",
+    "title": "Normal Edit",
+    "tldr": "Manually overrides face normals to point toward a target — used to fake smooth shading on flat panels and stylized objects.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-normal-map",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "normal-map",
+    "title": "Normal Map",
+    "tldr": "Fakes surface detail by bending how light hits each pixel — the standard way to bake detail from high-poly to game-ready mesh.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-ocean",
+    "category": "Physics Modifiers",
+    "categorySlug": "physics",
+    "slug": "ocean",
+    "title": "Ocean",
+    "tldr": "Generates an animated ocean surface with realistic waves, foam, and spray — no keyframing needed.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-particle-system",
+    "category": "Physics Modifiers",
+    "categorySlug": "physics",
+    "slug": "particle-system",
+    "title": "Particle System",
+    "tldr": "Emits thousands of objects or hair strands from a mesh surface — sparks, smoke, rain, fur, and grass.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-principled-bsdf",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "principled-bsdf",
+    "title": "Principled BSDF",
+    "tldr": "The master material node. Controls how shiny, metallic, rough, or transparent a surface looks — start every material here.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-remesh",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "remesh",
+    "title": "Remesh",
+    "tldr": "Rebuilds your mesh topology with a clean, uniform grid — great for fixing messy sculpts before retopology.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-screw",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "screw",
+    "title": "Screw",
+    "tldr": "Spins a profile curve around an axis to create lathe-turned shapes — bottles, cups, vases, columns, and wheel rims.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-shrinkwrap",
+    "category": "Deform Modifiers",
+    "categorySlug": "deform",
+    "slug": "shrinkwrap",
+    "title": "Shrinkwrap",
+    "tldr": "Snaps your mesh to the surface of another object — the go-to tool for decals, fitted clothing, and retopology.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-simple-deform",
+    "category": "Deform Modifiers",
+    "categorySlug": "deform",
+    "slug": "simple-deform",
+    "title": "Simple Deform",
+    "tldr": "Bends, twists, tapers, or stretches your mesh along an axis — fast cartoon deformations with a single slider.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-skin",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "skin",
+    "title": "Skin",
+    "tldr": "Grows a mesh skin around a stick-figure of edges — the fastest way to prototype trees, creatures, and organic shapes.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-smooth",
+    "category": "Deform Modifiers",
+    "categorySlug": "deform",
+    "slug": "smooth",
+    "title": "Smooth",
+    "tldr": "Softens the shape of a mesh by averaging vertex positions — removes bumps from noisy or jagged geometry.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-soft-body",
+    "category": "Physics Modifiers",
+    "categorySlug": "physics",
+    "slug": "soft-body",
+    "title": "Soft Body",
+    "tldr": "Makes a mesh wobble, bounce, and squish like rubber or jelly when it moves or collides with objects.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-solidify",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "solidify",
+    "title": "Solidify",
+    "tldr": "Adds thickness to a flat surface — use it on paper, cloth, walls, leaves, and any thin object that needs depth.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-subdivision-surface",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "subdivision-surface",
+    "title": "Subdivision Surface",
+    "tldr": "Smooths your mesh by subdividing it — the standard way to turn blocky low-poly models into organic smooth shapes.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-subsurface-scattering",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "subsurface-scattering",
+    "title": "Subsurface Scattering",
+    "tldr": "Simulates light passing through and scattering inside a material — essential for realistic skin, wax, and jade.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-surface-deform",
+    "category": "Deform Modifiers",
+    "categorySlug": "deform",
+    "slug": "surface-deform",
+    "title": "Surface Deform",
+    "tldr": "Binds one mesh to deform along with another — make clothing follow a character body without needing weight painting.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-texture-coordinate",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "texture-coordinate",
+    "title": "Texture Coordinate",
+    "tldr": "Outputs different coordinate systems for positioning textures — UV, Object, World, and Camera space all in one node.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-transparent-bsdf",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "transparent-bsdf",
+    "title": "Transparent BSDF",
+    "tldr": "Makes a surface fully see-through without any refraction — use it for alpha cutouts, leaves, and hair cards.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-triangulate",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "triangulate",
+    "title": "Triangulate",
+    "tldr": "Converts all faces to triangles — required by game engines and many export formats like FBX and glTF.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-uv-project",
+    "category": "Modify Modifiers",
+    "categorySlug": "modify",
+    "slug": "uv-project",
+    "title": "UV Project",
+    "tldr": "Projects UVs onto your mesh from the view of a camera or empty — for decals, logos, and projected textures.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-vertex-weight-edit",
+    "category": "Modify Modifiers",
+    "categorySlug": "modify",
+    "slug": "vertex-weight-edit",
+    "title": "Vertex Weight Edit",
+    "tldr": "Modifies vertex group weights using a curve or texture — fine-tune which parts of a mesh get affected by a modifier.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-voronoi-texture",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "voronoi-texture",
+    "title": "Voronoi Texture",
+    "tldr": "Generates a cell-pattern texture — use it for scales, cracked mud, alien skin, and stylized abstract surfaces.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-warp",
+    "category": "Deform Modifiers",
+    "categorySlug": "deform",
+    "slug": "warp",
+    "title": "Warp",
+    "tldr": "Stretches mesh geometry between two objects — bends, pulls, and distorts regions of a mesh non-destructively.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-wave",
+    "category": "Deform Modifiers",
+    "categorySlug": "deform",
+    "slug": "wave",
+    "title": "Wave",
+    "tldr": "Animates a ripple wave propagating across your mesh — water surfaces, flags waving, and cloth-like motion.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-wave-texture",
+    "category": "Shader Nodes",
+    "categorySlug": "shader-nodes",
+    "slug": "wave-texture",
+    "title": "Wave Texture",
+    "tldr": "Generates striped or ringed wave patterns — wood grain, zebra stripes, fingerprints, and topographic line effects.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-weighted-normal",
+    "category": "Modify Modifiers",
+    "categorySlug": "modify",
+    "slug": "weighted-normal",
+    "title": "Weighted Normal",
+    "tldr": "Cleans up shading on hard-surface models by making face normals consistent — fixes dark spots on flat surfaces.",
+    "versionTags": null
+  },
+  {
+    "_id": "seed-page-weld",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "weld",
+    "title": "Weld",
+    "tldr": "Merges vertices that are close together — fixes gaps, seams, and duplicate points left over from modeling.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  },
+  {
+    "_id": "seed-page-wireframe",
+    "category": "Generate Modifiers",
+    "categorySlug": "generate",
+    "slug": "wireframe",
+    "title": "Wireframe",
+    "tldr": "Replaces your mesh with a 3D version of its wireframe — creates cage, lattice, and technical illustration effects.",
+    "versionTags": [
+      "4.2",
+      "5.x"
+    ]
+  }
+]
