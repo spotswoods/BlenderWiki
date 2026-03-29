@@ -16,9 +16,20 @@ export default function Footer() {
 
         {/* Links */}
         <div className="flex items-center gap-6">
-          <Link href="/tracker" className="hover:text-[#888] transition-colors">
-            Content tracker
+          <Link href="/contribute" className="hover:text-[#888] transition-colors">
+            Contribute
           </Link>
+          <Link href="/tracker" className="hover:text-[#888] transition-colors">
+            Tracker
+          </Link>
+          <a
+            href="https://github.com/spotswoods/blenderpage"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-[#888] transition-colors"
+          >
+            GitHub ↗
+          </a>
           <a
             href="https://www.blender.org"
             target="_blank"
@@ -33,7 +44,7 @@ export default function Footer() {
         <p className="text-[#444] text-xs text-center sm:text-right">
           Something wrong or unclear?{" "}
           <a
-            href="https://github.com"
+            href="https://github.com/spotswoods/blenderpage/issues/new/choose"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#555] hover:text-[#888] underline underline-offset-2 transition-colors"

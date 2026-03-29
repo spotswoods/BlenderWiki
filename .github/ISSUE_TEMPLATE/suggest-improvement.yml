@@ -1,0 +1,50 @@
+name: Suggest a better explanation
+description: Something on a tool page was confusing or could be clearer
+title: "Improvement: [tool name here]"
+labels: ["improvement", "content"]
+body:
+  - type: input
+    id: tool
+    attributes:
+      label: Which tool or modifier?
+      placeholder: e.g. Bevel, Array, Subdivision Surface
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of improvement?
+      options:
+        - The explanation is confusing or hard to follow
+        - I have a better plain-English description
+        - The use cases are missing or wrong
+        - A common gotcha is missing
+        - The keyboard shortcut is wrong or missing
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: What's the problem with the current version?
+      placeholder: "The description says X but I expected Y..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Your suggested improvement (optional)
+      placeholder: "A clearer way to explain it would be..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Your Blender experience level (optional)
+      placeholder: "Complete beginner / been using Blender for 6 months / professional artist..."
+    validations:
+      required: false

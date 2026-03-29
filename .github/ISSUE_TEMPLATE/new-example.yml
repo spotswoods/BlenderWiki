@@ -1,0 +1,37 @@
+name: Submit a better explanation or example
+description: You have a clearer way to explain a tool, or a great real-world example
+title: "Example: [tool name here]"
+labels: ["contribution", "content"]
+body:
+  - type: input
+    id: tool
+    attributes:
+      label: Which tool or modifier?
+      placeholder: e.g. Array, Mirror, Solidify
+    validations:
+      required: true
+
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Your plain-English explanation
+      description: Write it as if you're explaining to a complete beginner. No jargon.
+      placeholder: "The Array modifier is like using copy-paste in a straight line. You make one object and tell Blender to repeat it X times..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Real-world use case (optional)
+      placeholder: "I used this to make a fence by arraying a single fence post 20 times..."
+    validations:
+      required: false
+
+  - type: input
+    id: blend
+    attributes:
+      label: Link to .blend file (optional)
+      placeholder: Google Drive, Dropbox, or any public link
+    validations:
+      required: false

@@ -214,6 +214,43 @@ export default async function ReferencePageView({ params }: Props) {
         </a>
       )}
 
+      {/* Community feedback */}
+      <section className="rounded-xl border border-[#2d2d2d] bg-[#1a1a1a] px-6 py-5 space-y-4">
+        <div className="flex items-center gap-2">
+          <span className="text-base">💬</span>
+          <h3 className="font-semibold text-sm text-[#d4d4d4]">Was this page helpful?</h3>
+        </div>
+        <div className="flex flex-wrap gap-3">
+          <a
+            href={`https://github.com/spotswoods/blenderpage/issues/new?template=suggest-improvement.yml&title=Improvement%3A+${encodeURIComponent(page.title)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm border border-[#363636] bg-[#242424] hover:border-[#e87d0d]/60 hover:text-white rounded-lg px-4 py-2 transition-all"
+          >
+            ✏️ Suggest a better explanation
+          </a>
+          <a
+            href={`https://github.com/spotswoods/blenderpage/issues/new?template=didnt-understand.yml&title=Confusing%3A+${encodeURIComponent(page.title)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm border border-[#363636] bg-[#242424] hover:border-[#e87d0d]/60 hover:text-white rounded-lg px-4 py-2 transition-all"
+          >
+            🤔 I didn&apos;t understand this
+          </a>
+          <a
+            href={`https://github.com/spotswoods/blenderpage/issues/new?template=new-example.yml&title=Example%3A+${encodeURIComponent(page.title)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm border border-[#363636] bg-[#242424] hover:border-[#e87d0d]/60 hover:text-white rounded-lg px-4 py-2 transition-all"
+          >
+            📎 Submit an example
+          </a>
+        </div>
+        <p className="text-xs text-[#555]">
+          Opens a GitHub issue pre-filled with this page &mdash; no account needed to browse, free to create one.
+        </p>
+      </section>
+
       {/* Prev / Next navigation */}
       {(prevPage || nextPage) && (
         <nav className="grid grid-cols-2 gap-4 border-t border-[#2a2a2a] pt-8">

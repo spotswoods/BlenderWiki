@@ -1,0 +1,40 @@
+name: I didn't understand this
+description: Flag a page that needs a simpler or clearer explanation
+title: "Confusing: [tool name here]"
+labels: ["needs-clarity", "content"]
+body:
+  - type: input
+    id: tool
+    attributes:
+      label: Which tool or modifier?
+      placeholder: e.g. Boolean, Geometry Nodes, Displace
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What specifically didn't make sense?
+      placeholder: "I understand it adds geometry but I don't know when I'd actually use it..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: level
+    attributes:
+      label: Your Blender experience level
+      options:
+        - Complete beginner (first week)
+        - Beginner (a few months)
+        - Intermediate (1+ year)
+        - Advanced
+    validations:
+      required: true
+
+  - type: textarea
+    id: helpful
+    attributes:
+      label: What would have helped? (optional)
+      placeholder: "A real-world example, a before/after image, a shorter description..."
+    validations:
+      required: false
