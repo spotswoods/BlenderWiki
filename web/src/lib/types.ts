@@ -26,11 +26,19 @@ export interface TrackerFlags {
   needsExamples: boolean;
 }
 
+export interface VersionEntry {
+  version: string;
+  changes?: string;
+  settingsUI?: SanityMedia;
+}
+
 export interface ReferencePage {
   _id: string;
   title: string;
   slug: { current: string };
   category: Category;
+  targetVersion?: string;
+  versionHistory?: VersionEntry[];
   versionTags: string[];
   tldr: string;
   hotkeys: string[];

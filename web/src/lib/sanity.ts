@@ -58,6 +58,12 @@ export const REFERENCE_PAGE_QUERY = `
     _id,
     title,
     slug,
+    targetVersion,
+    versionHistory[] {
+      version,
+      changes,
+      settingsUI
+    },
     versionTags,
     tldr,
     hotkeys,

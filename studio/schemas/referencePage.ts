@@ -36,6 +36,55 @@ export const referencePage = defineType({
       validation: (R) => R.required(),
     }),
     defineField({
+      name: "targetVersion",
+      title: "Written for Blender",
+      type: "string",
+      description: 'The Blender version this page is primarily accurate for, e.g. "4.2"',
+      group: "meta",
+    }),
+    defineField({
+      name: "versionHistory",
+      title: "Version History",
+      type: "array",
+      description: "Add an entry whenever this tool changes in a new Blender release. Each entry gets its own settings screenshot and change summary so users can switch between them on the page.",
+      group: "meta",
+      of: [
+        {
+          type: "object",
+          name: "versionEntry",
+          fields: [
+            defineField({
+              name: "version",
+              title: "Blender Version",
+              type: "string",
+              description: 'e.g. "4.1", "3.6"',
+              validation: (R) => R.required(),
+            }),
+            defineField({
+              name: "changes",
+              title: "What changed in this version",
+              type: "text",
+              rows: 2,
+              description: "Plain English — what was added, removed, or renamed?",
+            }),
+            defineField({
+              name: "settingsUI",
+              title: "Settings Screenshot (this version)",
+              type: "image",
+              description: "Upload a fresh screenshot of the panel for this specific Blender version.",
+              options: { hotspot: true },
+            }),
+          ],
+          preview: {
+            select: { title: "version", subtitle: "changes" },
+            prepare({ title, subtitle }: { title: string; subtitle: string }) {
+              return { title: `Blender ${title}`, subtitle: subtitle ?? "No change notes yet" };
+            },
+          },
+        },
+      ],
+    }),
+    defineField({
       name: "versionTags",
       title: "Version Tags",
       type: "array",

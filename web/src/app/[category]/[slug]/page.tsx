@@ -6,6 +6,7 @@ import Link from "next/link";
 import HeroMedia from "@/components/HeroMedia";
 import HotspotImage from "@/components/HotspotImage";
 import GotchaCard from "@/components/GotchaCard";
+import VersionedSettings from "@/components/VersionedSettings";
 
 export const revalidate = 3600;
 
@@ -89,11 +90,11 @@ export default async function ReferencePageView({ params }: Props) {
       <header className="space-y-4">
         <div className="flex flex-wrap items-start gap-3">
           <h1 className="text-4xl font-bold">{page.title}</h1>
-          {page.versionTags?.map((v) => (
-            <span key={v} className="text-sm bg-[#363636] rounded-full px-3 py-1 text-[#888] mt-1">
-              {v}
+          {page.targetVersion && (
+            <span className="text-xs bg-[#e87d0d]/10 border border-[#e87d0d]/30 text-[#e87d0d] rounded-full px-3 py-1 mt-1.5 font-mono">
+              Blender {page.targetVersion}
             </span>
-          ))}
+          )}
         </div>
 
         {page.tldr && (
@@ -141,24 +142,22 @@ export default async function ReferencePageView({ params }: Props) {
         </section>
       )}
 
-      {/* Settings Panel (UI screenshot with hotspot annotations) */}
+      {/* Settings Panel — version-aware */}
       <section className="space-y-4">
         <h2 className="text-xl font-semibold border-b border-[#363636] pb-3">
           Settings Panel
-          {page.settingsUI && (
+          {(page.settingsUI || page.versionHistory?.some((v) => v.settingsUI)) && (
             <span className="ml-2 text-sm font-normal text-[#666]">
               — hover the dots to see what each setting does
             </span>
           )}
         </h2>
-        {page.settingsUI ? (
-          <HotspotImage image={page.settingsUI} title={page.title} />
-        ) : (
-          <div className="flex items-center gap-3 rounded-lg border border-dashed border-[#2d2d2d] px-5 py-3 text-sm text-[#555]">
-            <span>📸</span>
-            <span>Settings screenshot not yet added.</span>
-          </div>
-        )}
+        <VersionedSettings
+          defaultUI={page.settingsUI}
+          versions={page.versionHistory}
+          title={page.title}
+          targetVersion={page.targetVersion}
+        />
       </section>
 
       {/* Gotchas */}

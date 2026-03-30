@@ -27,6 +27,9 @@ export default function Navbar() {
         )}
 
         <div className="ml-auto flex items-center gap-4 text-sm text-[#888]">
+          <Link href="/guide" className="hover:text-[#e87d0d] transition-colors hidden sm:block">
+            Guide
+          </Link>
           <a
             href="https://www.blender.org"
             target="_blank"
